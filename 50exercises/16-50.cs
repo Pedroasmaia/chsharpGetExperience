@@ -10,7 +10,6 @@ Console.Write("Escreva a metragem do lado B: ");
 int sideB = int.Parse(Console.ReadLine());
 Console.Write("Escreva  a metragem do lado C: ");
 int sideC = int.Parse(Console.ReadLine());
-
 if(sideA < sideB + sideC && sideB < sideA + sideC && sideC < sideA + sideB){
    Console.WriteLine("Forma o triangulo");
 }
