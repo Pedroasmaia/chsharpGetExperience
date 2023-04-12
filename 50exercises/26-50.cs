@@ -8,7 +8,10 @@ while (i <= 10)
 {
    Console.WriteLine($"Escreva o {i}° valor: ");
    int number = int.Parse(Console.ReadLine());
-   number < 0 ? negative++ : negative+0;
+   if (number < 0)
+   {
+      negative++;
+   }
    i++;
 }
 Console.WriteLine($"Tivemos {negative} números negativos");
